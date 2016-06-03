@@ -2,8 +2,7 @@
 
 def add_up_numbers(arr):
   # Remove the `return None` code below and add your own code.
-  return None
-
+ return sum(int(x) for x in arr)
 # -----------------------------------------------------------------------------
 
 # These are the automated tests for this exercise. Do not modify them at all.
